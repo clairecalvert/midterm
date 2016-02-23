@@ -4,13 +4,137 @@
 
 /* standard css for desktop browsers */
 body {
-	background-color:gainsboro;
+	background-image: url(https://media.giphy.com/media/ImsCNEEKTa86c/giphy.gif);
+	font-size: 18px;
+}
+
+.intro {
+	background-color: #FFFF33;
+	padding: 50px;
+}
+
+.summary {
+	font-size: 14px;
+	font-family: Courier;
+	font-weight: bolder;
+	color: #339999;
+}
+
+
+header {
+	font-family: Courier;
+}
+
+header h1 {
+	font-family: Impact;
+	color: #009933;
+	font-weight: bolder;
+	font-size: 55px;
+	background-image: url(https://media.giphy.com/media/l2JHUYi9GV7aq9RMQ/giphy.gif);
+	background-size: auto;
+	font-stretch: ultra-expanded;
+	text-align:center;
+}
+
+#zen-explanation {
+	background-image: url(https://media.giphy.com/media/xhAjMhhrTOsSY/giphy.gif);
+	padding-bottom: 25px;
+	border: #66CC99 solid 10px;
+}
+
+#zen-explanation h3 {
+	background-image: url(https://media3.giphy.com/media/mMVzp2j7qCD8A/200.gif);
+	font-family: Courier;
+	font-weight: bolder;
+	font-size: 22px;
+	color: red;
+	text-align: center;
+}
+
+#zen-participation {
+	background-image: url(https://media.giphy.com/media/c5XUuksP6VNoQ/giphy.gif);
+	font-family: Courier;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #339999;
+	text-align: center;
+}
+
+#zen-participation h3 {
+	background-image: url(https://media.giphy.com/media/FTFdrLtAe7lbq/giphy.gif);
+	font-family: Courier;
+	font-size: 22px;
+	font-weight: bolder;
+	color: red;
+	text-align: center;
+}
+
+#zen-benefits {
+	background-image: url(https://media.giphy.com/media/UcudytKWO66Kk/giphy.gif);
+}
+
+#zen-requirements {
+	background-image: url(https://media.giphy.com/media/Tg2xmoc2eM6ME/giphy.gif);
+}
+#zen-preamble {
+	font-size: 14px;
+	font-family: Courier;
+	color: #339999;
+	font-weight: bolder;
+}
+
+#zen-supporting {
+	font-size: 14px;
+	font-family: Courier;
+	color: #339999;
+	font-weight: bolder;
+	background-color: #FF6600;
+	padding:100px;
+	padding-left:50px;
+	border: 10px solid #CCCCCC;
+	margin:100px;
+}
+
+.wrapper {
+	background-image: url(https://media.giphy.com/media/k8ycLr3yUQSCk/giphy.gif);
+	padding: 50px;
+	border: solid 10px #0033FF;
+	margin: 0px 100px 100px 100px;
+}
+
+#design-selection {
+	display: flex;
+	background-image: url(https://media.giphy.com/media/l41lGZaFDLHlNdohW/giphy.gif);
+	font-family: Courier;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #FF0066;
+	align: center;
+}
+
+#design-archives {
+	display: flex;
+	background-image: url(https://media.giphy.com/media/5fBH6zdjGGAsIgEp2Gk/giphy.gif);
+	font-family: Courier;
+	font-weight: bolder;
+	font-size: 14px;
+	color: #00CC33;
+	align: center;
+}
+
+#zen-resources {
+	display: flex;
+	background-image: url(http://49.media.tumblr.com/c44ad0b32320e5bbe0d0cd1896e20602/tumblr_ndt4dxPb5M1s44i03o1_400.gif);
+}
+
+.sidebar {
+	background-image: url(https://media.giphy.com/media/3oEduIB2PIMixKkyAw/giphy.gif);
 }
 
 /* override css for mobile browsers */
 @media all and (min-width:320px) and (max-width:400px) {
 	body {
-		font-size:1em;
-		background-color:orange;
+		font-size:20px;
+		background-color:#FFFF33;
 	}
 }
